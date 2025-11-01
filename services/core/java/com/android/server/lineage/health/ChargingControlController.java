@@ -729,7 +729,7 @@ public class ChargingControlController extends LineageHealthFeature {
             // Register notification monitor
             IntentFilter notificationFilter = new IntentFilter(ACTION_CHARGING_CONTROL_CANCEL_ONCE);
             mContext.registerReceiver(new LineageHealthNotificationBroadcastReceiver(),
-                    notificationFilter);
+            notificationFilter, Context.RECEIVER_NOT_EXPORTED);
         }
 
         public void post(Long targetTime, boolean done) {
