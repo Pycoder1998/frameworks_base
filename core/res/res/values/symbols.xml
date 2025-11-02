@@ -6029,4 +6029,9 @@
   <java-symbol type="string" name="charging_control_notification_content_target" />
   <java-symbol type="string" name="charging_control_notification_content_target_reached" />
 
+  <!-- GameSpace -->
+  <java-symbol type="string" name="gamespace_new_game_added" />
+
+  <!-- Mediadata max bitmap size -->
+  <java-symbol type="integer" name="config_maxBitmapSizePx" />
 </resources>
