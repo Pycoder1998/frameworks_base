@@ -6891,4 +6891,6 @@ ul.</string>
     <string name="charging_control_notification_content_target">Battery will be fully charged at %1$s</string>
     <string name="charging_control_notification_content_target_reached">Battery is charged</string>
 
+    <string name="gamespace_new_game_added">New game added</string>
+
 </resources>
